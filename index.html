@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h2>My<span>Portfolio</span></h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="small">Hi, I'm</p>
+    <h1>ASIYA KAZI</h1>
+    <h2>BSCIT STUDENT</h2>
+
+    <div class="buttons">
+      <button class="btn primary" onclick="scrollToContact()">Contact Me</button>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/asiya-kazi-32a6b4406" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/arkazi2905-del" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="profile pic.png" alt="Asiya Kazi profile picture">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a BSc IT student with a strong interest in technology and programming. 
+      I have learned programming languages including C, C++, Java, Python, and JavaScript.
+      Along with coding, I have an interest in creativity and design. I actively participated 
+      in the graphics team during my college fest, where I worked on visual content and design.
+      I am continuously learning and looking for opportunities to enhance my skills and gain 
+      experience in the IT field.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+
+  <div class="skill-grid">
+    <div class="skill-card html">HTML</div>
+    <div class="skill-card css">CSS</div>
+    <div class="skill-card js">JavaScript</div>
+    <div class="skill-card responsive">Graphic Design</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="card">
+    <h2>Contact Me</h2>
+
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+
+    <button class="btn primary" id="sendBtn">Send Message</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 ASIYA KAZI</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

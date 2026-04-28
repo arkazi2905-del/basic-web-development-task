@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #edf7f5, #f8fafc);
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.navbar span {
+  color: #0bbf9a;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #0bbf9a;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+  gap: 60px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin: 10px 0;
+}
+
+.hero h2 {
+  font-size: 28px;
+  color: #0bbf9a;
+  margin: 8px 0;
+}
+
+/* 🔥 FIXED: Hi I'm bigger */
+.small {
+  font-size: 18px;   /* increased */
+  font-weight: 500;
+  margin: 0;
+}
+
+/* 🔥 Bigger description if needed */
+.desc {
+  max-width: 420px;
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* IMAGE */
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img img {
+  width: 420px;
+  border-radius: 50%;
+}
+
+/* 🔥 BUTTONS (Contact Me bigger) */
+.btn {
+  padding: 16px 36px; /* bigger */
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 12px;
+  font-size: 18px; /* bigger */
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.primary {
+  background: #0bbf9a;
+  color: white;
+  box-shadow: 0 4px 12px rgba(11,191,154,0.3);
+}
+
+.primary:hover {
+  transform: translateY(-3px) scale(1.05); /* nicer hover */
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid #0bbf9a;
+  color: #0bbf9a;
+}
+
+.outline:hover {
+  background: #0bbf9a;
+  color: white;
+}
+
+/* 🔥 SOCIAL ICONS BIGGER */
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin-right: 18px;
+  font-size: 30px; /* BIGGER icons */
+  color: #333;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #0bbf9a;
+  transform: scale(1.3);
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  margin: 60px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* SKILLS */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.skill-card {
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Softer colors */
+.html { background: #ff8787; }
+.css { background: #74c0fc; }
+.js { background: #ffe066; color: black; }
+.responsive { background: #63e6be; }
+
+/* CONTACT */
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: 'Poppins';
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.about {
+  margin-top: 180px;
+}
